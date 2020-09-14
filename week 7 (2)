@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2020-09-14T08:27:42.000Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="0WZqbhpFy6BBbhxsoUjV" version="13.6.5" type="github">
+<mxfile host="app.diagrams.net" modified="2020-09-14T08:34:11.560Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36" etag="ozsOXE8HtsZJ9gQkfwks" version="13.6.5" type="github">
   <diagram id="x7aJOQcNZtMkeU2IOcoP" name="Page-1">
     <mxGraphModel dx="782" dy="469" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
       <root>
@@ -22,16 +22,22 @@
         <mxCell id="_DAd7v284F_wI2TSR6xo-59" value="VillaTypeID (pi)&#xa;VillaFeatures&#xa;VillaDesc" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="_DAd7v284F_wI2TSR6xo-58">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
-        <mxCell id="_DAd7v284F_wI2TSR6xo-56" value="Entity" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+        <mxCell id="_DAd7v284F_wI2TSR6xo-56" value="Reservation" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="650" y="294" width="160" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="_DAd7v284F_wI2TSR6xo-57" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="_DAd7v284F_wI2TSR6xo-56">
+        <mxCell id="_DAd7v284F_wI2TSR6xo-57" value="ReservationID (pi)&#xa;GuestNames" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="_DAd7v284F_wI2TSR6xo-56">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
         <mxCell id="_DAd7v284F_wI2TSR6xo-54" value="Payment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
           <mxGeometry x="470" y="294" width="160" height="120" as="geometry" />
         </mxCell>
         <mxCell id="_DAd7v284F_wI2TSR6xo-55" value="+Attribute1&#xa;+Attribute2&#xa;+Attribute3" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="_DAd7v284F_wI2TSR6xo-54">
+          <mxGeometry y="30" width="160" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="_DAd7v284F_wI2TSR6xo-64" value="Payment" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=2;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;" vertex="1" parent="1">
+          <mxGeometry x="400" y="420" width="160" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="_DAd7v284F_wI2TSR6xo-65" value="PaymentID (pi)" style="align=left;strokeColor=none;fillColor=none;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="_DAd7v284F_wI2TSR6xo-64">
           <mxGeometry y="30" width="160" height="90" as="geometry" />
         </mxCell>
       </root>
